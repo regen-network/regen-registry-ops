@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "regen": "http://regen.network/",
+    "qudt": "http://qudt.org/schema/qudt",
+    "unit": "http://qudt.org/2.1/vocab/unit",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": "regen:Project",
+  "regen:vcsProjectId": {
+    "@type": "xsd:unsignedInt",
+    "@value": 934
+  },
+  "regen:vcsProjectPage": {
+    "@type": "schema:URL",
+    "@value": "https://registry.verra.org/app/projectDetail/VCS/934"
+  },
+  "regen:projectProponent": {
+    "@type": "regen:Organization",
+    "schema:name": "Wildlife Works Carbon LLC"
+  },
+  "regen:vcsProjectType": "Agriculture Forestry and Other Land Use",
+  "regen:projectActivity": {
+   "schema:name": "REDD",
+    "schema:url": {
+      "@type": "schema:URL",
+      "@value": "REDD"
+    }
+  },
+  "regen:offsetGenerationMethod": "",
+  "regen:vcsMethodology": {
+    "schema:name": "VM0009 Methodology for Avoided Ecosystem Conversion",
+    "schema:url": {
+      "@type": "schema:URL",
+      "@value": "https://verra.org/methodology/vm0009-methodology-for-avoided-ecosystem-conversion-v3-0/"
+    }
+  },
+  "regen:projectSize": {
+    "qudt:unit": {
+      "@type": "qudt:Unit",
+      "@value": "unit:HA"
+    },
+    "qudt:numericValue": {
+      "@type": "xsd:double",
+      "@value": 299640
+    }
+  },
+  "regen:projectStartDate": {
+    "@type": "xsd:date",
+    "@value": "03/14/2011"
+  },
+  "regen:projectEndDate": {
+    "@type": "xsd:date",
+    "@value": "03/13/2041"
+  }
+}

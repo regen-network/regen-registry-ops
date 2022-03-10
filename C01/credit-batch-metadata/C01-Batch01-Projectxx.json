@@ -1,0 +1,21 @@
+// This is a test credit batch 
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "regen": "http://regen.network/"
+  },
+  "@type": "regen:CreditBatch",
+  "regen:vcsRetirementSerialNumber": "5531-243300694-243310693-VCU-048-MER-CD-14-934-01012015-31122015-1",
+  "regen:vintageYear": {
+    "@type": "xsd:gYear",
+    "@value": "2015"
+  },
+  "regen:batchMonitoringReport": {
+    "@type": "schema:URL",
+    "@value": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=43173&IDKEY=klksjoiuwqowrnoiuomnckjashoufifmln902309ksdflku098j59535567"
+  },
+  "regen:batchVerificationReport": {
+    "@type": "schema:URL",
+    "@value": "https://registry.verra.org/mymodule/ProjectDoc/Project_ViewFile.asp?FileID=43189&IDKEY=d903q4jsafkasjfu90amnmasdfkaidflnmdf9348r09dmfasdfn59557631"
+  }
+}
