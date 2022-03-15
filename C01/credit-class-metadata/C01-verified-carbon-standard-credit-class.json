@@ -3,15 +3,24 @@
     "schema": "http://schema.org/",
     "regen": "http://regen.network/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dash": "http://datashapes.org/dash#"
+    "dash": "http://datashapes.org/dash#",
+    "schema:itemListElement": { "@container": "@list" },
+    "regen:sectoralScope": { "@container": "@list" },
+    "regen:offsetGenerationMethod": { "@container": "@list" }
   },
   "@type": "regen:CreditClass",
-  "schema:description": "",
+  "schema:description": "This credit class provides a vehicle for nature based Verified Carbon Units (VCUs) to enter the blockchain space via issuance on Regen Ledger. It can be used by project developers, credit brokers, and other stakeholders interested in digitizing carbon credits issued by the VCS program to make them available in the emerging world of decentralized finance.",
+  "regen:documentation": {
+    "schema:url":{
+      "@type": "schema:URL",
+      "@value": "https://library.regen.network/v/regen-registry-credit-classes/credits-from-other-registries/verified-carbon-standard-credit-class"
+    }
+  },
   "regen:sourceRegistry": {
     "schema:name": "Verra",
     "schema:url": {
       "@type": "schema:URL",
-      "@value": "This credit class provides a vehicle for nature based Verified Carbon Units (VCUs) to enter the blockchain space via issuance on Regen Ledger. It can be used by project developers, credit brokers, and other stakeholders interested in digitizing carbon credits issued by the VCS program to make them available in the emerging world of decentralized finance."
+      "@value": "https://verra.org/"
     }
   },
   "regen:sectoralScope": [
@@ -43,6 +52,10 @@
         "schema:url": {
           "@type": "schema:URL",
           "@value": ""
+        },
+        "schema:version": {
+          "@type": "schema:Text",
+          "@value": ""
         }
       },
       {
@@ -52,12 +65,16 @@
           "@type": "schema:URL",
           "@value": ""
         }
+        "schema:version": {
+          "@type": "schema:Text",
+          "@value": ""
+        }
       }
     ],
     "schema:url": {
       "@type": "schema:URL",
-      "@value": "https://library.regen.network/v/regen-registry-credit-classes/credits-from-other-registries/verified-carbon-standard-credit-class"
-    } 
+      "@value": "ttps://library.regen.network/v/regen-registry-credit-classes/credits-from-other-registries/verified-carbon-standard-credit-class"
+    }
   },
   "regen:verificationMethod": "Third-party verified"
 }
