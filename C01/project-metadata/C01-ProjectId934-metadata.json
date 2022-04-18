@@ -69,6 +69,7 @@
       }
     },
     "type": "Feature",
+    "place_name": "Mai Ndombe, Democratic Republic of the Congo, Africa",
     "geometry": {
       "type": "Point",
       "coordinates": [
@@ -76,5 +77,35 @@
         -1.958494
       ]
     }
-  }
+  },
+  "regen:previewPhoto": {
+    "@type": "schema:URL",
+    "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/preview-photo.jpg"
+  },
+  "regen:galleryPhotos": {
+    "@list": [
+        {
+            "@type": "schema:URL",
+            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image1.jpg"
+        },
+        {
+            "@type": "schema:URL",
+            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image2.jpg"
+        },
+        {
+            "@type": "schema:URL",
+            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image3.jpg"
+        },
+        {
+            "@type": "schema:URL",
+            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image4.jpg"
+        }
+    ]
+  },
+  "regen:videoURL": {
+    "@type": "schema:URL",
+    "@value": "https://www.youtube.com/embed/_4wHY99fm-w"
+  },
+  "schema:creditText": "Filip C Agoo, Everland Marketing"
 }
+
