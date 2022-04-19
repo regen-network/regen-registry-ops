@@ -86,7 +86,7 @@
     "@list": [
         {
             "@type": "schema:URL",
-            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image-1.jpg"
+            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image-1.png"
         },
         {
             "@type": "schema:URL",
@@ -98,7 +98,7 @@
         },
         {
             "@type": "schema:URL",
-            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image-4.jpg"
+            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image-4.png"
         }
     ]
   },
