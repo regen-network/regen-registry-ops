@@ -86,19 +86,19 @@
     "@list": [
         {
             "@type": "schema:URL",
-            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image1.jpg"
+            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image-1.jpg"
         },
         {
             "@type": "schema:URL",
-            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image2.jpg"
+            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image-2.jpg"
         },
         {
             "@type": "schema:URL",
-            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image3.jpg"
+            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image-3.jpg"
         },
         {
             "@type": "schema:URL",
-            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image4.jpg"
+            "@value": "https://regen-registry.s3.amazonaws.com/projects/mai-ndombe/image-4.jpg"
         }
     ]
   },
@@ -106,6 +106,6 @@
     "@type": "schema:URL",
     "@value": "https://www.youtube.com/embed/_4wHY99fm-w"
   },
-  "schema:creditText": "Filip C Agoo, Everland Marketing"
+  "schema:creditText": "Photography of Mai Ndombe by Filip Agoo"
 }
 
