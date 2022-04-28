@@ -5,6 +5,7 @@
   },
   "@type": "regen:CreditBatch",
   "regen:vcsRetirementSerialNumber": "5531-243019420-243074419-VCU-048-MER-CD-14-934-01012015-31122015-1",
+  "regen:vcsProjectID": 612,
   "regen:additionalCertifications": [
     {
       "schema:name": "CCB-Gold",
