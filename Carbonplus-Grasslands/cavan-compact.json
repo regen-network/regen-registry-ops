@@ -1,0 +1,376 @@
+{
+    "@context": {
+        "schema": "http://schema.org/",
+        "regen": "http://regen.network/",
+        "qudt": "http://qudt.org/schema/qudt/",
+        "unit": "http://qudt.org/vocab/unit/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@type": [
+        "regen:ProjectPage",
+        "regen:Project"
+    ],
+    "schema:name": "Cavan Station",
+    "regen:projectSize": {
+        "qudt:unit": {
+            "@type": "qudt:unit",
+            "@value": "unit:HA"
+        },
+        "qudt:numericValue": {
+            "@type": "xsd:double",
+            "@value": "9900"
+        }
+    },
+    "schema:location": {
+        "id": "locality.10126678166314560",
+        "bbox": [
+            148.83983593873,
+            -34.87741853553,
+            148.98291007393,
+            -34.77967524613
+        ],
+        "text": "Yass",
+        "type": "Feature",
+        "center": [
+            148.9157,
+            -34.8363
+        ],
+        "context": [
+            {
+                "id": "place.9046544750314560",
+                "text": "Yass",
+                "wikidata": "Q1380121"
+            },
+            {
+                "id": "region.19913417492553050",
+                "text": "New South Wales",
+                "wikidata": "Q3224",
+                "short_code": "AU-NSW"
+            },
+            {
+                "id": "country.9968792518346070",
+                "text": "Australia",
+                "wikidata": "Q408",
+                "short_code": "au"
+            }
+        ],
+        "@context": {
+            "type": "@type",
+            "@vocab": "https://purl.org/geojson/vocab#",
+            "coordinates": {
+                "@container": "@list"
+            }
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                148.9157,
+                -34.8363
+            ]
+        },
+        "relevance": 1,
+        "place_name": "Yass, New South Wales, Australia",
+        "place_type": [
+            "locality"
+        ],
+        "properties": {}
+    },
+    "regen:landOwner": {
+        "@type": "regen:Organization",
+        "schema:email": "Al@macdoch.com",
+        "schema:location": {
+            "feature": {
+                "id": "address.4941533040990382",
+                "text": "Challis Avenue",
+                "type": "Feature",
+                "center": [
+                    151.224816,
+                    -33.869168
+                ],
+                "address": "25",
+                "context": [
+                    {
+                        "id": "postcode.4440734955792810",
+                        "text": "2011"
+                    },
+                    {
+                        "id": "locality.11245911520829820",
+                        "text": "Potts Point",
+                        "wikidata": "Q2918803"
+                    },
+                    {
+                        "id": "place.4960085988742460",
+                        "text": "Sydney",
+                        "wikidata": "Q3130"
+                    },
+                    {
+                        "id": "region.19913417492553050",
+                        "text": "New South Wales",
+                        "wikidata": "Q3224",
+                        "short_code": "AU-NSW"
+                    },
+                    {
+                        "id": "country.9968792518346070",
+                        "text": "Australia",
+                        "wikidata": "Q408",
+                        "short_code": "au"
+                    }
+                ],
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        151.224816,
+                        -33.869168
+                    ]
+                },
+                "relevance": 0.805556,
+                "place_name": "25 Challis Avenue, Potts Point New South Wales 2011, Australia",
+                "place_type": [
+                    "address"
+                ],
+                "properties": {
+                    "accuracy": "point"
+                }
+            },
+            "@context": {
+                "type": "@type",
+                "@vocab": "https://purl.org/geojson/vocab#",
+                "coordinates": {
+                    "@container": "@list"
+                }
+            }
+        },
+        "schema:legalName": "New Kayarem Pty Limited",
+        "schema:name": "New Kayarem Pty Limited",
+        "regen:sharePermission": true,
+        "regen:responsiblePerson": "Charles Alasdair MacLeod"
+    },
+    "regen:landStory": "Cavan Station is a 9,900 hectare aggregation of properties divided by the Murrunbidgee River at Yass, on the southern tablelands of NSW. Cavan comprises a diverse range of landscapes including limestone rocky outcrops, undulating slopes and steep native vegetated hills.",
+    "regen:boundaries": {
+        "@type": "schema:URL",
+        "@value": "https://regen-registry.s3.amazonaws.com/projects/cavan-station/Cavan_Boundaries_KML.kml"
+    },
+    "regen:glanceText": {
+        "@list": [
+            "Increased soil organic carbon concentration to 3.4%.",
+            "Improved co-benefits with Soil Health ranking as good, Ecosystem Health as good, and Animal Welfare as excellent."
+        ]
+    },
+    "regen:creditClass": {
+        "@id": "https://www.regen.network/CarbonPlusGrasslandsCreditClass",
+        "@type": "regen:CreditClass"
+    },
+    "regen:landSteward": {
+        "@type": [
+            "regen:Organization",
+            "regen:OrganizationDisplay"
+        ],
+        "schema:email": "matt@cavanstation.com.au",
+        "schema:image": {
+            "@type": "schema:URL",
+            "@value": "https://regen-registry.s3.amazonaws.com/projects/cavan-station/cavan-station.jpg"
+        },
+        "schema:location": {
+            "id": "region.19913417492553050",
+            "bbox": [
+                140.999474167179,
+                -37.5097267803825,
+                159.208731278622,
+                -28.08696659275
+            ],
+            "text": "New South Wales",
+            "type": "Feature",
+            "center": [
+                147.014694071448,
+                -32.1689716724
+            ],
+            "context": [
+                {
+                    "id": "country.9968792518346070",
+                    "text": "Australia",
+                    "wikidata": "Q408",
+                    "short_code": "au"
+                }
+            ],
+            "@context": {
+                "type": "@type",
+                "@vocab": "https://purl.org/geojson/vocab#",
+                "coordinates": {
+                    "@container": "@list"
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.014694071448,
+                    -32.1689716724
+                ]
+            },
+            "relevance": 1,
+            "place_name": "New South Wales, Australia",
+            "place_type": [
+                "region"
+            ],
+            "properties": {
+                "wikidata": "Q3224",
+                "short_code": "AU-NSW"
+            }
+        },
+        "schema:legalName": "Cavan Station",
+        "schema:name": "Cavan Station",
+        "schema:description": "Cavan Station specialises in producing the highest quality Merino sheep, wool, lamb and beef utilising sustainable management systems.",
+        "regen:sharePermission": true,
+        "regen:responsiblePerson": "Matt Crozier",
+        "regen:showOnProjectPage": true
+    },
+    "regen:previewPhoto": {
+        "@type": "schema:URL",
+        "@value": "https://regen-registry.s3.amazonaws.com/projects/cavan-station/cavan-station-main.png"
+    },
+    "regen:projectQuote": {
+        "schema:name": "Matt Crozier",
+        "regen:quote": "The most recent drought experience has highlighted how Cavan can still be profitable and productive, while generating positive ecological outcomes even through the dry years.",
+        "schema:jobTitle": "Cavan Station General Manager"
+    },
+    "regen:galleryPhotos": {
+        "@list": [
+            {
+                "@type": "schema:URL",
+                "@value": "https://regen-registry.s3.amazonaws.com/projects/cavan-station/image1.png"
+            },
+            {
+                "@type": "schema:URL",
+                "@value": "https://regen-registry.s3.amazonaws.com/projects/cavan-station/image2.png"
+            },
+            {
+                "@type": "schema:URL",
+                "@value": "https://regen-registry.s3.amazonaws.com/projects/cavan-station/image3.png"
+            },
+            {
+                "@type": "schema:URL",
+                "@value": "https://regen-registry.s3.amazonaws.com/projects/cavan-station/image4.png"
+            }
+        ]
+    },
+    "regen:landStewardPhoto": {
+        "@type": "schema:URL",
+        "@value": "https://regen-registry.s3.amazonaws.com/projects/cavan-station/image5.png"
+    },
+    "regen:landStewardStory": "The need to build adaptability and resilience into an iconic Merino enterprise has taken a traditional, large scale business on a successful change management journey, building economic, social, and ecological capital through ''enlightened stewardship'' and a major rethink on how the business manages its land. Cavan Station is focused on the production of the highest-quality, humanely certified merino wool along with lamb and beef. Cavan is also home to the Bogo Merino Stud, producing premium Merino genetics.",
+    "regen:projectDeveloper": {
+        "@type": [
+            "regen:Organization",
+            "regen:OrganizationDisplay"
+        ],
+        "schema:email": "toby@impactag.com.au",
+        "schema:image": {
+            "@type": "schema:URL",
+            "@value": "https://regen-registry.s3.amazonaws.com/projects/wilmot/impactag.jpg"
+        },
+        "schema:location": {
+            "id": "locality.9026947348650540",
+            "bbox": [
+                151.559181637768,
+                -30.5839663337301,
+                151.775605052501,
+                -30.4172103410048
+            ],
+            "text": "Armidale",
+            "type": "Feature",
+            "center": [
+                151.6666,
+                -30.5134
+            ],
+            "context": [
+                {
+                    "id": "place.9016114380650540",
+                    "text": "Armidale",
+                    "wikidata": "Q606169"
+                },
+                {
+                    "id": "region.19913417492553050",
+                    "text": "New South Wales",
+                    "wikidata": "Q3224",
+                    "short_code": "AU-NSW"
+                },
+                {
+                    "id": "country.9968792518346070",
+                    "text": "Australia",
+                    "wikidata": "Q408",
+                    "short_code": "au"
+                }
+            ],
+            "@context": {
+                "type": "@type",
+                "@vocab": "https://purl.org/geojson/vocab#",
+                "coordinates": {
+                    "@container": "@list"
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.6666,
+                    -30.5134
+                ]
+            },
+            "relevance": 1,
+            "place_name": "Armidale, New South Wales, Australia",
+            "place_type": [
+                "locality"
+            ],
+            "properties": {}
+        },
+        "schema:legalName": "Impact Ag Partners",
+        "schema:name": "Impact Ag Partners",
+        "schema:description": "Impact Ag Partners is a specialist agricultural asset management firm and advisory service which utilises a variety of pathways and partners to measure and monitise natural capital.",
+        "regen:sharePermission": true,
+        "regen:responsiblePerson": "Toby Grogan",
+        "regen:showOnProjectPage": true
+    },
+    "regen:landManagementActions": {
+        "@list": [
+            {
+                "schema:name": "Time Controlled Rotational Grazing",
+                "schema:image": {
+                    "@type": "schema:URL",
+                    "@value": "https://regen-registry.s3.amazonaws.com/projects/wilmot/time-controlled-rotational-grazing.jpg"
+                },
+                "schema:description": "Building a resilient and adaptive business to withstand future climatic, environmental, social and economic challenges was the core focus for Cavan''s investment in change. Cavan has been able to build ecological capital during seasonally tough periods, with a steady upward trend in soil organic carbon levels. By focusing on the landscape and the management of grazing systems, improvements in animal welfare and productivity have been realised. Matching stocking rate to carrying capacity, maintaining ground cover, implementing rotational grazing, increasing productivity of pastures and managing feed budgets with the Maia Grazing management tool has resulted in an overall improvement to productivity, profitability and ecological health."
+            },
+            {
+                "schema:name": "Decrease Paddock Size",
+                "schema:image": {
+                    "@type": "schema:URL",
+                    "@value": "https://regen-registry.s3.amazonaws.com/projects/wilmot/decrease-paddock-size.jpg"
+                },
+                "schema:description": "Decreased paddock sizes enable effective grazing at a controllable density."
+            },
+            {
+                "schema:name": "Increase Stock Density",
+                "schema:image": {
+                    "@type": "schema:URL",
+                    "@value": "https://regen-registry.s3.amazonaws.com/projects/wilmot/increase-stock-density.jpg"
+                },
+                "schema:description": "Carefully managed, high stock densities lead to evenly grazed pastures, nutrient recycling, increases in pasture health and performance by trampling (or recycling) a higher proportion of biomass, and evenly distributing dung and urine (nutrients)."
+            },
+            {
+                "schema:name": "Monitor Pasture Growth",
+                "schema:image": {
+                    "@type": "schema:URL",
+                    "@value": "https://regen-registry.s3.amazonaws.com/projects/wilmot/monitor-pasture-growth.jpg"
+                },
+                "schema:description": "Accurate measurement of pasture growth (available feed) determines the density of animals and length of time in a paddock."
+            },
+            {
+                "schema:name": "Manage Grazing Periods",
+                "schema:image": {
+                    "@type": "schema:URL",
+                    "@value": "https://regen-registry.s3.amazonaws.com/projects/wilmot/manage-grazing-periods.jpg"
+                },
+                "schema:description": "To ensure effectively implemented grazing practices and management practices records, Cavan Station utilizes the online tool <a href=\"https://www.maiagrazing.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Maia Grazing</a>. Maia Grazing uses climatic data and field observations to determine pasture growth and optimal stocking rates, tracks stock movements, and ensures the stocking rate does not exceed the carrying capacity of each paddock."
+            }
+        ]
+    },
+    "regen:landStewardStoryTitle": "Matt Crozier has managed Cavan Station since 2011 with a full time staff of nine"
+}
