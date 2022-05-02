@@ -1,0 +1,226 @@
+{
+    "@context": {
+      "schema": "http://schema.org/",
+      "regen": "http://regen.network/",
+      "qudt": "http://qudt.org/schema/qudt/",
+      "unit": "http://qudt.org/vocab/unit/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@type": [
+        "regen:ProjectPage",
+        "regen:Project"
+    ],
+    "schema:name": "Pillango",
+    "regen:projectSize": {
+        "qudt:unit": {
+            "@type": "qudt:unit",
+            "@value": "unit:HA"
+        },
+        "qudt:numericValue": {
+            "@type": "xsd:double",
+            "@value": "1101"
+        }
+    },
+    "schema:location": {
+        "id": "district.12535732366493270",
+        "bbox": [
+            -102.047161,
+            38.697567,
+            -101.478195,
+            39.134799
+        ],
+        "text": "Wallace County",
+        "type": "Feature",
+        "center": [
+            -101.57583,
+            38.76444
+        ],
+        "context": [
+            {
+                "id": "region.10336703176034420",
+                "text": "Kansas",
+                "wikidata": "Q1558",
+                "short_code": "US-KS"
+            },
+            {
+                "id": "country.19678805456372290",
+                "text": "United States",
+                "wikidata": "Q30",
+                "short_code": "us"
+            }
+        ],
+        "@context": {
+            "type": "@type",
+            "@vocab": "https://purl.org/geojson/vocab#",
+            "coordinates": {
+                "@container": "@list"
+            }
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -101.57583,
+                38.76444
+            ]
+        },
+        "relevance": 1,
+        "place_name": "Wallace County, Kansas, United States",
+        "place_type": [
+            "district"
+        ],
+        "properties": {
+            "wikidata": "Q374471"
+        }
+    },
+    "regen:videoURL": {
+        "@type": "schema:URL",
+        "@value": "https://regen-registry.s3.amazonaws.com/projects/pillango/Pillango+Promotional+Video.mp4"
+    },
+    "regen:landStory": "The Pillango Project is a 1,101 hectare landscape rooted in an area that was once the world''s second largest temperate indigenous grassland, the Great Plains of the U.S. Located in Wallace County, Kansas, Pillango resides at an altitude of 1,059m above sea level and receives an average annual rainfall of approximately 508mm. Pillango is situated in an area of the U.S. that has geographic significance due to its location above the Ogallala Aquifer, a vital water source that is rapidly depleting. In its original prairie form, the landscape was a herbaceous grassland rooted with native shortgrass prairie perennials. Over the last ten to fifteen years, the land has been cultivated as dryland corn and wheat. This has led to soil degradation, characterized by diminished carbon and water storage capacity. Despite this, the landscape has produced cropland-worthy yields under low rainfall conditions for multiple years, illustrating the underlying potential of its native soil bed.",
+    "regen:boundaries": {
+        "@type": "schema:URL",
+        "@value": "https://regen-registry.s3.amazonaws.com/projects/pillango/Pillango_1.kml"
+    },
+    "regen:glanceText": {
+        "@list": [
+            "Removed from commodity crop production.",
+            "Implementing regenerative agriculture and rewilding land to restore grasslands and rebuild carbon stocks."
+        ]
+    },
+    "regen:creditClass": {
+        "@id": "https://www.regen.network/CarbonPlusGrasslandsCreditClass",
+        "@type": "regen:CreditClass"
+    },
+    "regen:previewPhoto": {
+        "@type": "schema:URL",
+        "@value": "https://regen-registry.s3.amazonaws.com/projects/pillango/pillango.png"
+    },
+    "regen:projectQuote": {
+        "schema:name": "Julie Mettenburg",
+        "regen:quote": "Restoring health to agricultural land and economies goes hand-in-hand with restoring local and indigenous rural communities. This is the story of the Pillango Project.  Restoring Pillango will be a journey filled with hard work, high emotions, and dusty days, and I am thrilled to have the opportunity to learn what the potential of this awesome landscape can be.",
+        "schema:jobTitle": "The Provenance Co., Head of Land Regeneration"
+    },
+    "regen:galleryPhotos": {
+        "@list": [
+            {
+                "@type": "schema:URL",
+                "@value": "https://regen-registry.s3.amazonaws.com/projects/pillango/image1.png"
+            },
+            {
+                "@type": "schema:URL",
+                "@value": "https://regen-registry.s3.amazonaws.com/projects/pillango/image2.png"
+            },
+            {
+                "@type": "schema:URL",
+                "@value": "https://regen-registry.s3.amazonaws.com/projects/pillango/image3.png"
+            },
+            {
+                "@type": "schema:URL",
+                "@value": "https://regen-registry.s3.amazonaws.com/projects/pillango/image4.png"
+            }
+        ]
+    },
+    "regen:landStewardStory": "When Pillango''s owner Will sought to transition his Kansas cropland into climate beneficial production in 2019, he partnered with The Provenance Co (TPC). TPC is led by founders Julie and Leslie, siblings who grew up raising livestock on Kansas land. Julie and Leslie bring their institutional knowledge of regenerative agriculture and on-the-ground management experience to bear on the two biggest challenges properties like Pillango face when transitioning: degraded soil and lack of infrastructure to sustain animal, human and microbial life. Together, Will, Julie, and Leslie have been united in the philosophy that in order to restore life underground, one must simultaneously restore life above ground. TPC began implementing their proprietary land stewardship protocol, Regenerative Rewilding ®, in January of 2021.\n\nIn June of 2020, TPC began to work towards returning both human and animal life to Pillango. Jodi, an experienced farming practitioner raised on the fierce Western Kansas landscape, is the onsite crew leader. Dan, trained as an organic soil specialist, and Roberto, an expert herdsman with 20+ years of ranching experience, oversee livestock movement across Pillango land. Together, Jodi, Dan, and Roberto marry animal impact with soil restoration to rebuild the land''s carbon sequestration stores. The onsite TPC team also includes Dan''s wife, Cole, and their two children.",
+    "regen:projectDeveloper": {
+        "@type": [
+            "regen:Organization",
+            "regen:OrganizationDisplay"
+        ],
+        "schema:email": "",
+        "schema:image": {
+            "@type": "schema:URL",
+            "@value": "https://regen-registry.s3.amazonaws.com/projects/pillango/provenance-logo.png"
+        },
+        "schema:location": {
+            "id": "place.9088551026943870",
+            "bbox": [
+                -95.447133837,
+                38.814193058,
+                -95.124755052,
+                39.114202257
+            ],
+            "text": "Lawrence",
+            "type": "Feature",
+            "center": [
+                -95.2359,
+                38.9719
+            ],
+            "context": [
+                {
+                    "id": "district.11086808048614230",
+                    "text": "Douglas County",
+                    "wikidata": "Q112220"
+                },
+                {
+                    "id": "region.10336703176034420",
+                    "text": "Kansas",
+                    "wikidata": "Q1558",
+                    "short_code": "US-KS"
+                },
+                {
+                    "id": "country.19678805456372290",
+                    "text": "United States",
+                    "wikidata": "Q30",
+                    "short_code": "us"
+                }
+            ],
+            "@context": {
+                "type": "@type",
+                "@vocab": "https://purl.org/geojson/vocab#",
+                "coordinates": {
+                    "@container": "@list"
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.2359,
+                    38.9719
+                ]
+            },
+            "relevance": 1,
+            "place_name": "Lawrence, Kansas, United States",
+            "place_type": [
+                "place"
+            ],
+            "properties": {
+                "wikidata": "Q493840"
+            }
+        },
+        "schema:legalName": "The Provenance Co.",
+        "schema:name": "The Provenance Co.",
+        "schema:description": "The Provenance Co. partners with impact investors to deliver climate resilience with investor worthy returns by unleashing the awesome carbon sequestering power of America''s Great Plains.",
+        "regen:sharePermission": true,
+        "regen:responsiblePerson": "",
+        "regen:showOnProjectPage": true
+    },
+    "regen:landManagementActions": {
+        "@list": [
+            {
+                "schema:name": "Regenerative agriculture",
+                "schema:image": {
+                    "@type": "schema:URL",
+                    "@value": "https://regen-registry.s3.amazonaws.com/projects/pillango/regenerative-agriculture.png"
+                },
+                "schema:description": "The Provenance Co''s proprietary Regenerative Rewilding® protocol implements the five principles of Regenerative Agriculture: Minimize soil disturbance, maximize crop diversity, keep the soil covered, maintain living roots year-round, and integrate livestock."
+            },
+            {
+                "schema:name": "Rewilding",
+                "schema:image": {
+                    "@type": "schema:URL",
+                    "@value": "https://regen-registry.s3.amazonaws.com/projects/pillango/rewilding.png"
+                },
+                "schema:description": "The Provenance Co''s proprietary Regenerative Rewilding® protocl uses wild herd behaviour and dynamics as a model for agricultural production. The protocol aims to mimic key elements of wild herd activity to physically work the soil, as required for regeneration. Doing so allows TPC to achieve the animal concentration required to jumpstart sequestering mechanisms in the soil, in a manner that honors the animal''s instinctive nature."
+            },
+            {
+                "schema:name": "Risk Management",
+                "schema:image": {
+                    "@type": "schema:URL",
+                    "@value": "https://regen-registry.s3.amazonaws.com/projects/pillango/risk-management.png"
+                },
+                "schema:description": "The Provenance Co''s proprietary Regenerative Rewilding® protocol aims to reduce the financial risk farming poses while optimizing carbon sequestration. When captured and measured, carbon stores can be monetized, offsetting some financial risk for farmers. Marrying carbon sequestration outcomes to land productivity and financial health allows TPC to better align systemic farming risk with real climate impact."
+            }
+        ]
+    },
+    "regen:landStewardStoryTitle": "The Provenance Co. is leading the Pillango Project to restore its carbon sequestering capacity"
+}
