@@ -4,8 +4,8 @@
     "regen": "http://regen.network/"
   },
   "@type": "regen:CreditBatch",
-  "regen:vcsRetirementSerialNumber": "5531-243019420-243074419-VCU-048-MER-CD-14-934-01012015-31122015-1",
-  "regen:vcsProjectID": 612,
+  "regen:vcsRetirementSerialNumber": "5531-243019440-243022964-VCU-048-MER-CD-14-934-01012015-31122015-1",
+  "regen:vcsProjectID": 934,
   "regen:additionalCertifications": [
     {
       "schema:name": "CCB-Gold",
