@@ -69,7 +69,9 @@
       }
     },
     "type": "Feature",
-    "place_name": "Taita–Taveta, Kenya",
+    "properties": {
+      "name": "Taita–Taveta, Kenya Test",
+    }
     "geometry": {
       "type": "Point",
       "coordinates": [
