@@ -1,0 +1,107 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "regen": "http://regen.network/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema:itemListElement": { "@container": "@list" },
+    "regen:sectoralScope": { "@container": "@list" },
+    "regen:offsetGenerationMethod": { "@container": "@list" },
+    "regen:ecosystemType": { "@container": "@list" },
+    "regen:landManagementPractice": { "@container": "@list" },
+    "regen:coBenefits": { "@container": "@list" }
+  },
+  "@type": "regen:CreditClass",
+  "schema:name": "Adoption of Regenerative Land Management",
+  "schema:description": "",
+  "schema:url": {
+    "@type": "schema:URL",
+    "@value": ""
+  },
+  "regen:sourceRegistry": {
+    "schema:name": "Regen Registry",
+    "schema:url": {
+      "@type": "schema:URL",
+      "@value": "registry.regen.network"
+    }
+  },
+  "regen:offsetGenerationMethod": [ 
+    "Carbon Removals" 
+  ],
+  "regen:sectoralScope": [ 
+    "Agriculture Forestry & Other Land Use", 
+    "Livestock & Manure Management" 
+  ],
+  "regen:ecosystemType": [
+    "Artificial: Cropland",
+    "Artificial: Agroforestry",
+    "Artificial: Silviopastural Agroforestry",
+    "Artificial: Forest Farming Agroforestry"
+  ],
+  "regen:regenerativePractice":[
+    "Reduced Till",
+    "No Till",
+    "Cover Cropping",
+    "Multispecies Cover Cropping",
+    "Reduced Fertiliztion",
+    "Crop Residue Management",
+    "Soil Amendments: Compost",
+    "Soil Amendments: Manure",
+    "Soil Amendments: Hay",
+    "Soil Amendments: Straw",
+    "Adaptive Multi-Paddock Grazing",
+    "Multispecies Grazing"
+  ],
+  "regen:coBenefits": [
+    "Water Retention",
+    "Biodiversity",
+    "Vegetation Productivity"
+  ],
+  "regen:LandOwnershipType": [
+    "Public",
+    "Private",
+    "Tribal"
+  ],
+  "regen:approvedMethodologies": {
+    "@type": "schema:BreadcrumbList",
+    "schema:itemListElement": [
+      {
+        "@type": "regen:Methodology",
+        "schema:name": "Methodology for Adoption of Regenerative Land Management",
+        "schema:identifier": {
+          "@type": "schema:Text",
+          "@value": "Regen Methodology "
+        },
+        "schema:url": {
+          "@type": "schema:URL",
+          "@value": ""
+        },
+        "schema:version": {
+          "@type": "schema:Text",
+          "@value": "Version 1.0"
+        }
+      }
+    ],
+    "schema:url": {
+      "@type": "schema:URL",
+      "@value": ""
+    }
+  },
+  "regen:creditingTerm": {
+    "@type": "schema:activityDuration",
+    "@value": "P10Y"
+  },
+  "regen:lookbackPeriod": {
+    "@type": "schema:activityDuration",
+    "@value": "P-1Y"
+  },
+  "regen:verificationMethod": "Third-party verified",
+  "regen:permenanceBuffer": {
+    "@type": "xsd:integer",
+    "@value": "5"
+  },
+  "regen:reversalBuffer": {
+    "@type": "xsd:integer",
+    "@value": "15"
+  }
+}
+

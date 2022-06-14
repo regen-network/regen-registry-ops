@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "regen": "http://regen.network/"
+  },
+  "@type": "regen:CreditBatch",
+  "regen:monitoringReport": {
+    "schema:name": "",
+    "regen:verificationDate": {
+      "@type": "xsd:date",
+      "@value": ""
+    },
+    "schema:url": {
+      "@type": "schema:URL",
+      "@value": ""
+    }
+  },
+  "regen:verificationReport": {
+    "schema:name": "",
+    "regen:verificationDate": {
+      "@type": "xsd:date",
+      "@value": ""
+    },
+    "schema:url": {
+      "@type": "schema:URL",
+      "@value": ""
+    }
+  }
+}

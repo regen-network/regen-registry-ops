@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "regen": "http://regen.network/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema:itemListElement": { "@container": "@list" },
+    "regen:ecosystemType": { "@container": "@list" },
+    "regen:projectActivity": { "@container": "@list" }
+  },
+  "@type": "regen:Project",
+  "schema:name": "Adoption of Regenerative Land Management",
+  "schema:description": "",
+  "schema:url": {
+    "@type": "schema:URL",
+    "@value": ""
+  },
+  "regen:ecosystemType": [],
+  "regen:projectActivity": [],
+  "regen:LandOwnershipType": "",
+
+  "regen:projectStartDate": {
+    "@type": "xsd:date",
+    "@value": ""
+  },
+  "regen:projectEndDate": {
+    "@type": "xsd:date",
+    "@value": ""
+  },
+  "regen:projectSize": {
+    "qudt:unit": {
+      "@type": "qudt:Unit",
+      "@value": "unit:HA"
+    },
+    "qudt:numericValue": {
+      "@type": "xsd:double",
+      "@value": 0
+    }
+  },
+  "schema:location": {
+    "@context": {
+      "type": "@type",
+      "@vocab": "https://purl.org/geojson/vocab#",
+      "coordinates": {
+        "@container": "@list"
+      },
+      "bbox": {
+        "@container": "@list"
+      }
+    },
+    "type": "Feature",
+    "place_name": "",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [0.0, 0.0]
+    }
+  },
+  "regen:SDGs": []
+}
+
