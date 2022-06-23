@@ -66,9 +66,7 @@
       }
     },
     "type": "Feature",
-    "properties": {
-      "name": "Mai Ndombe, Democratic Republic of the Congo, Africa"
-    },
+    "place_name": "Mai Ndombe, Democratic Republic of the Congo, Africa",
     "geometry": {
       "type": "Point",
       "coordinates": [
