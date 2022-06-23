@@ -4,7 +4,7 @@
     "regen": "http://regen.network/",
     "regen:additionalCertifications": { "@container": "@list" }
   },
-  "@type": "regen:CreditBatch",
+  "@type": "regen:C01-CreditBatch",
   "regen:vcsRetirementSerialNumber": "5531-243022965-243022980-VCU-048-MER-CD-14-934-01012015-31122015-1",
   "regen:vcsProjectId": 934,
   "regen:additionalCertifications": [
